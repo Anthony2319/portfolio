@@ -1,38 +1,15 @@
-body{
-    background-color: #652F2F;
-    
-}
-.header{
-   
-    background-image: url("photo_header.webp");
-    opacity: 80%;
+.band{
     width: 100%;
-    
-    &_photo {
-        opacity: 100%;
-        width: 100%;
-    }
-    &_title{
+   
+    &_img{
         position: relative;
-        color:rgb(194, 125, 13);
-      
-    }
-    &_titlename{
-        position: absolute;
-        font-size: 140%;
-        left: 25%;
-        top: 25%;
-    }
-    &_titlefonction{
-        position: absolute;
-        font-size: 200%;
-        margin-right: 10%;
-
-    }
-    &_nav{
-        position: absolute;
-        bottom: 0%;
-        opacity: 100%;
         width: 100%;
-    }     
+    }
+    &_txt{
+        position: absolute;
+        top: 19%;
+        left: 14%;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+    }
 }
