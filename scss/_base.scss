@@ -1,3 +1,43 @@
-.body{
+.presentation{
     background-color: black;
+    width: 100%;
+    &_img{
+        width: 35%;
+        margin: 3%;
+        border: 2px solid white
+    }
+    &_title{
+        color: white;
+
+    }
+    &_txt{
+        color: white;
+    }
+}
+.compet_title{
+        background-color:rgb(4, 4, 134) ;
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+.fullStack{
+    display: flex;
+    margin: 5px 0px 0px 0px;
+    
+    &_backend{
+        border: 3px solid black;
+        border-radius: 10%;
+        margin-left: 6%;
+    }
+    &_frontend{
+        border: 3px solid black;
+        border-radius: 10%;
+        margin-left: 2%;
+        &_title{
+          margin-right: px;
+        }
+    }
+}
+.carousel{
+    width: 100%
 }
