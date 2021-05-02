@@ -1,43 +1,49 @@
 .presentation{
     background-color: black;
     width: 100%;
+    display: flex;
     &_img{
-        width: 35%;
+        width: 65%;
         margin: 3%;
-        border: 2px solid white
+        border: 2px solid white;
+        margin-left: 15%;
+        margin-top: 15%;
     }
     &_title{
         color: white;
-
+        text-align: center;
     }
     &_txt{
         color: white;
+        margin-top: 10%;
     }
 }
 .compet_title{
-        background-color:rgb(4, 4, 134) ;
+        background-color:rgb(30, 30, 246) ;
         text-align: center;
         color: white;
         margin: 0;
     }
 .fullStack{
     display: flex;
-    margin: 5px 0px 0px 0px;
-    
+    margin: 10px 6px ;  
     &_backend{
         border: 3px solid black;
         border-radius: 10%;
-        margin-left: 6%;
+        margin-left: 10%;
     }
+   
     &_frontend{
         border: 3px solid black;
         border-radius: 10%;
-        margin-left: 2%;
-        &_title{
-          margin-right: px;
-        }
     }
+   
+}
+.lesplus{
+    border: 3px solid black;
+    border-radius: 10%;
+    margin: 10px 6px;
 }
 .carousel{
-    width: 100%
+   margin-bottom: 0px;
 }

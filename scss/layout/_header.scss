@@ -2,14 +2,19 @@
     width: 100%;
    
     &_img{
-        position: relative;
+        background-image: url(background_img.jpg);
+        background-size: cover;
         width: 100%;
+        position: relative;
+       
     }
     &_txt{
+        color: white;
+        text-align: center;
+        vertical-align: middle;
         position: absolute;
-        top: 19%;
-        left: 14%;
-        color: rgb(255, 0, 0);
-        font-weight: bold;
+        top: 25%;
+        left:50%;
+        transform: translate(-50%, -50%);
     }
 }
