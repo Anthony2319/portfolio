@@ -1,5 +1,8 @@
-.presentation{
+.forbtn{
     background-color: black;
+}
+.presentation{
+    
     width: 100%;
     display: flex;
     &_img{
@@ -17,6 +20,10 @@
         color: white;
         margin-top: 10%;
     }
+}
+.btn {
+    margin-left: 80%;
+    margin-bottom: 4%;
 }
 .compet_title{
         background-color:rgb(30, 30, 246) ;
