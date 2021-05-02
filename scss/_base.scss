@@ -26,23 +26,28 @@
     }
 .fullStack{
     display: flex;
-    margin: 10px 6px ;  
+    margin: 2% 2% ;  
     &_backend{
         border: 3px solid black;
         border-radius: 10%;
-        margin-left: 10%;
+        margin-left: 3%;
+        padding: 5% 5%;
+        text-align: center;
     }
    
     &_frontend{
         border: 3px solid black;
         border-radius: 10%;
+        padding: 5% 5%;
+        text-align: center;
     }
    
 }
 .lesplus{
+    text-align: center;
     border: 3px solid black;
     border-radius: 10%;
-    margin: 10px 6px;
+    margin: 2% 2%;
 }
 .carousel{
    margin-bottom: 0px;
