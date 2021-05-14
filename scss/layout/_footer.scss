@@ -1,13 +1,80 @@
-.foot_img{
-    margin-top: 0px;
-    position: relative;
-    width: 160%;
-    margin-top: 0%;
-}
-.contact{
-    //position: absolute;
-    top:245%;
-    left: 22%; 
-    color: white;
+.footer{      
+    &_title{
+        background-color:rgb(30, 30, 246) ;
+        text-align: center;
+        color: white;
+        margin-bottom: 0;    
+    }
+    &_img{
+        margin: 0%;
+        background-size: cover;
+        max-width: 250%;
+        height: auto;
+    }
+    &_bloc{
+        position: relative;
+    }
+    &_form{
+        position: absolute;
+        text-align: center;
+        top: 5%;
+        left: 2%; 
+        
+    }
+    &_formtext{
+        color: white;
+        
+    }
+    &_bot{
+        margin-top: 2%;
+        color: white;       
+    }
 }
 
+.github{
+    width:10%;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10%;
+}
+
+
+@media screen and (min-width:446px){
+    .footer_img{
+        max-width: 190%;   
+    }
+}
+@media screen and (min-width:600px){
+    .footer_img{
+        max-width: 150%; 
+    }  
+    .footer_form{
+        left: 15%;       
+    }  
+}
+@media screen and (min-width:810px){
+    .footer_img{
+        max-width: 120%; 
+    }  
+    .footer_form{
+        left: 26%;       
+    }  
+}
+@media screen and (min-width:1050px){
+    .footer_img{
+        max-width: 100%; 
+    }  
+    .footer_form{
+        left: 32%;       
+    }  
+}
+@media screen and (min-width:1200px){
+    .footer_img{
+        width: 100%;
+       
+    }  
+    .footer_form{
+        left: 32%; 
+        top: 10%;      
+    }  
+}

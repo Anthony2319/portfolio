@@ -1,20 +1,38 @@
+.nav{
+    position: fixed;
+    opacity: 100%;
+    margin:0%
+    z-index= 100;
+}
 .band{
     width: 100%;
    
     &_img{
         background-image: url(background_img.jpg);
-        background-size: cover;
         width: 100%;
-        position: relative;
+       
        
     }
     &_txt{
-        color: white;
+        color:white;
         text-align: center;
         vertical-align: middle;
         position: absolute;
-        top: 25%;
+        top: 18%;
         left:50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width:600px){
+    .band_txt{
+        top: 35%;
+        font-size: 130%;
+    }
+}
+@media screen and (min-width:810px){
+    .band_txt{
+        top: 40%;
+        font-size: 130%;
     }
 }
