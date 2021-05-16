@@ -138,27 +138,29 @@
 
   <footer>
     <h3 class="footer_title" id="contact"><strong>Contact</strong></h3>
-        <div class="footer_bloc">   
-          <img class="footer_img"  src="img_footer.jpg" alt="">         
-            <div class="footer_form">   
-                <input type="hidden" name="form-name" value="contact">
-                <div class="form__identity">
-                  <label class="footer_formtext"  for="lastname">Nom *</label><br>
-                  <input type="text" name="lastname" id="lastname" class="identity__input" required=""><br>
-                  <label class="footer_formtext" for="firstname">Prénom</label><br>
-                  <input type="text" name="firstname" id="firstname" class="identity__input">
-                </div>
-                <div class="form__mail">
-                  <label class="footer_formtext" for="email">Adress mail * </label><br>
-                  <input type="email" name="email" id="email" required="" class="mail__input">
-                </div>
-                <div class="form__msg">
-                  <label class="footer_formtext"  for="msg">Message</label><br>
-                  <textarea name="msg" id="msg" cols="30" rows="6" placeholder="Décrivez en quelques lignes votre demande / projet."></textarea><br>
-                  <label class="footer_formtext"  for="msg">* Obligatoire</label>
-                </div>
-                <input class="form__btn" type="submit" value="Envoyer">
-                <div class="footer_bot" >
+          <div class="footer_bloc">   
+            <img class="footer_img"  src="img_footer.jpg" alt="">   
+              <form name="monformulairedecontact" data-netlify="true">      
+                <div class="footer_form">   
+                  <input type="hidden" name="form-name" value="contact">
+                  <div class="form__identity">
+                    <label class="footer_formtext"  for="lastname">Nom *</label><br>
+                    <input type="text" name="lastname" id="lastname" class="identity__input" required=""><br>
+                    <label class="footer_formtext" for="firstname">Prénom</label><br>
+                    <input type="text" name="firstname" id="firstname" class="identity__input">
+                  </div>
+                  <div class="form__mail">
+                    <label class="footer_formtext" for="email">Adress mail * </label><br>
+                    <input type="email" name="email" id="email" required="" class="mail__input">
+                  </div>
+                  <div class="form__msg">
+                    <label class="footer_formtext"  for="msg">Message</label><br>
+                    <textarea name="msg" id="msg" cols="30" rows="6" placeholder="Décrivez en quelques lignes votre demande / projet."></textarea><br>
+                    <label class="footer_formtext"  for="msg">* Obligatoire</label>
+                  </div>
+                  <input class="form__btn" type="submit" value="Envoyer">
+                  <div class="footer_bot" >
+                </form>
                   <p>Retrouver-moi aussi sur GitHub</p>
                   <a href ="https://github.com/Anthony2319"><img class="github" src="img/github.svg" alt="github" ></a>
               </div>      
